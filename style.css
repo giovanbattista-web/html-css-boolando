@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing:border-box;
+}
+
+header {
+        background-color: orangered;
+        color: white;
+        padding : 10px 0;
+        position : fixed;
+        width : 100%;
+        height : 60px;
+}
+
+main {
+    padding-top: 8%;
+}
+
+.container {
+            max-width:1000px;
+            margin : 0 auto;
+            display : flex;
+            flex-wrap: wrap;
+}
+
+.background-blu {
+       background-color: blue;
+}
+
+.bordo {
+        border : 1px solid black;
+}
+
+.altezza-container {
+                    height : 850px;
+}
+
+/* suddivisione delle colonne */
+.colonna-33 {
+            width: 33%;
+}
+
+/* spazio tra le card */
+.justify-space-between {
+                        justify-content: space-between;
+}
+
+altezza-colonne {
+                 height : 250px;
+}
+
+.background-green {
+        background-color: green;
+}
+
+.card {
+       width : 100%;
+}
