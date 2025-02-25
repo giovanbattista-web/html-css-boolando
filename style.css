@@ -18,12 +18,13 @@ main {
 }
 
 .container {
-            max-width:1000px;
+            max-width:1100px;
             margin : 0 auto;
             display : flex;
             flex-wrap: wrap;
 }
 
+/* colore della struttura del container */
 .background-blu {
        background-color: blue;
 }
@@ -33,7 +34,7 @@ main {
 }
 
 .altezza-container {
-                    height : 850px;
+                    height : 300px;
 }
 
 /* suddivisione delle colonne */
@@ -41,19 +42,24 @@ main {
             width: 33%;
 }
 
-/* spazio tra le card */
-.justify-space-between {
-                        justify-content: space-between;
+/* allineamento verso il centro del contenitore */
+.justify-content-center {
+                        justify-content: center;
 }
 
 altezza-colonne {
-                 height : 250px;
+                 height : 500px;
 }
 
+/* colore della struttura delle card */
 .background-green {
         background-color: green;
 }
 
 .card {
        width : 100%;
+}
+
+.card-immagini {
+                max-width:100%;
 }
